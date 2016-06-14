@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Ef", "Data.Ef\Data.Ef.csproj", "{DD0F72E6-EA3F-4406-89F0-471F54A823C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{114E65E1-A987-408E-B691-BA95E9C00F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleHost", "TestConsoleHost\TestConsoleHost.csproj", "{24219402-F118-42A2-864D-88E27F133A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServices", "DataServices\DataServices.csproj", "{5E63FE83-04ED-4F9F-B1D6-C2EC76E7E769}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Latest RESTier sources compiled", "Latest RESTier sources compiled", "{B9B60823-28A4-448A-9CF6-4A980EC33691}"
+	ProjectSection(SolutionItems) = preProject
+		Latest RESTier sources compiled\Microsoft.Restier.Core.dll = Latest RESTier sources compiled\Microsoft.Restier.Core.dll
+		Latest RESTier sources compiled\Microsoft.Restier.Core.pdb = Latest RESTier sources compiled\Microsoft.Restier.Core.pdb
+		Latest RESTier sources compiled\Microsoft.Restier.Providers.EntityFramework.dll = Latest RESTier sources compiled\Microsoft.Restier.Providers.EntityFramework.dll
+		Latest RESTier sources compiled\Microsoft.Restier.Providers.EntityFramework.pdb = Latest RESTier sources compiled\Microsoft.Restier.Providers.EntityFramework.pdb
+		Latest RESTier sources compiled\Microsoft.Restier.Publishers.OData.dll = Latest RESTier sources compiled\Microsoft.Restier.Publishers.OData.dll
+		Latest RESTier sources compiled\Microsoft.Restier.Publishers.OData.pdb = Latest RESTier sources compiled\Microsoft.Restier.Publishers.OData.pdb
+		Latest RESTier sources compiled\Microsoft.Restier.Security.dll = Latest RESTier sources compiled\Microsoft.Restier.Security.dll
+		Latest RESTier sources compiled\Microsoft.Restier.Security.pdb = Latest RESTier sources compiled\Microsoft.Restier.Security.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalDB", "LocalDB", "{A6AC94F3-A48B-4676-8A9E-949E0C484DBA}"
+	ProjectSection(SolutionItems) = preProject
+		Data.Ef.RestierDbContext.mdf = Data.Ef.RestierDbContext.mdf
+		Data.Ef.RestierDbContext_log.ldf = Data.Ef.RestierDbContext_log.ldf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0F72E6-EA3F-4406-89F0-471F54A823C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0F72E6-EA3F-4406-89F0-471F54A823C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0F72E6-EA3F-4406-89F0-471F54A823C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0F72E6-EA3F-4406-89F0-471F54A823C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114E65E1-A987-408E-B691-BA95E9C00F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114E65E1-A987-408E-B691-BA95E9C00F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114E65E1-A987-408E-B691-BA95E9C00F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114E65E1-A987-408E-B691-BA95E9C00F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24219402-F118-42A2-864D-88E27F133A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24219402-F118-42A2-864D-88E27F133A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24219402-F118-42A2-864D-88E27F133A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24219402-F118-42A2-864D-88E27F133A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E63FE83-04ED-4F9F-B1D6-C2EC76E7E769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E63FE83-04ED-4F9F-B1D6-C2EC76E7E769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E63FE83-04ED-4F9F-B1D6-C2EC76E7E769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E63FE83-04ED-4F9F-B1D6-C2EC76E7E769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
